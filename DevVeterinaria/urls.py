@@ -22,3 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(('apps.Veterinaria.urls', 'Veterinaria'))),
 ]+static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
+
